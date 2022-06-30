@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react'
 import './App.css'
 import Nav from './components/Nav'
@@ -28,6 +29,16 @@ function App() {
       <Footer />
     </div>
   )
+import "./App.css";
+import NavBar from "./Components/NavBar/NavBar";
+
+function App() {
+  return (
+    <div className="App">
+      <NavBar />
+    </div>
+  );
+
 }
 
 export default App
